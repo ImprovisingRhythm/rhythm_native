@@ -1,0 +1,24 @@
+name: image_picker
+description: Flutter plugin for selecting and taking images/videos
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.improvising.image_picker
+        pluginClass: ImagePickerPlugin
+      ios:
+        pluginClass: ImagePickerPlugin

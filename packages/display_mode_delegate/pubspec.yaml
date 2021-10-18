@@ -1,0 +1,19 @@
+name: display_mode_delegate
+description: A Flutter plugin to set display mode on Android.
+version: 1.0.0
+public_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.improvising.display_mode_delegate
+        pluginClass: DisplayModeDelegatePlugin
