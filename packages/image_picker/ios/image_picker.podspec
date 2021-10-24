@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.description      = 'An advanced multi image picker plugin'
   s.homepage         = 'https://opensource.improvising.io'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Improvising Rhythm, Ltd.' => 'opensource@improvising.io' }
+  s.author           = { 'Improvising Rhythm Ltd.' => 'opensource@improvising.io' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

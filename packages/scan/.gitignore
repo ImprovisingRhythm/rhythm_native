@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+.dart_tool/
+
+.packages
+.pub/
+
+build/
+example/build/
+
+# Omit commiting pubspec.lock for library packages:
+# https://dart.dev/guides/libraries/private-files#pubspeclock
+pubspec.lock

@@ -1,0 +1,19 @@
+name: device_apps
+description: List applications installed on an Android device (iOS is not supported). You can also monitor application changes (updates, uninstallation…)
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.improvising.deviceapps
+        pluginClass: DeviceAppsPlugin
